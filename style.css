@@ -1,0 +1,171 @@
+@media screen and (min-width: 768px) {
+  body{
+    background-color: #ffffff;
+  }
+  nav > a{
+    color: #000000;
+    font-size: 34px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 1em;
+  }
+  
+  nav > a:hover{
+    text-decoration: underline;
+  }
+  #title{
+    border:  2px solid black;
+    font-size: 34px;
+    font-weight: bold;
+    padding: 2px 4mm;
+  }
+  
+  #main > img{
+   width: 100%;
+    
+  }
+  
+  header{
+    width: 70%;
+    display: flex;
+    margin: 20px auto 40px auto;
+    justify-content: space-between;
+  }
+  
+  #about h2{
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  h1{
+    font-size: 34px;
+    text-align: center;
+  }
+  
+  p,li,span{
+    font-size: 18px;
+  }
+  
+  
+  
+  article{
+    position: relative;
+    flex-direction:column;
+    justify-content: center;
+  }
+  
+  #works > div{
+    display: flex;
+  
+  }
+  
+  #works > div >div{
+    display: flex;
+    flex-direction: column;
+    width : 33%;
+    margin: 10px;
+    /* text-align: center; */
+  }
+  
+  #works > div > div > img,
+  #works > div > div > p{
+    width: 80%;
+  }
+  
+  footer{
+    text-align: center;
+    margin: 40px auto 1em auto;
+  }
+  
+  
+  section{
+    width: 60%;
+    margin: 0 auto;
+  }
+  
+  #kazuki{
+    border-radius: 50% 50% 50% 50%;
+    width: 20%;
+    margin-left: 10%;
+  }
+  
+  #about >div > div{
+    margin-right: 10%
+  }
+  
+  #about > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+  
+}
+
+@media screen and (max-width: 767px){
+  body{
+    margin: 0;
+    background-color: #ffffff;
+  }
+
+
+
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5em;
+  }
+
+  header > nav > a{
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 1em;
+    margin-right: 1em;
+    color: #000000;
+  }
+
+  header > nav > a:hover{
+    text-decoration: underline;
+  }
+  #title{
+    font-size: 24px;
+    font-weight: bold;
+    border: solid 1px black;
+    padding: 0.2em 1em;
+    margin-left: 4%;
+  }
+
+  #main>img{
+    width: 100%;
+  }
+
+  section{
+    margin: 0 5px;
+    text-align: center;
+  }
+
+  #kazuki{
+    border-radius: 50%;
+  }
+
+  h1{
+    font-size: 24px;
+  }
+
+  p{
+    margin-top: 0.5em;
+  }
+
+  footer{
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 1em;
+  }
+
+  #about > div > div {
+    text-align: left;
+    margin-left: 1em;
+  }
+}
